@@ -7,3 +7,8 @@ def test_add_basic():
 
 # def test_multiply_basic():
 #     assert multiply(4, 5) == 20
+
+from src.mathops import subtract
+
+def test_subtract_basic():
+    assert subtract(5, 3) == 2
